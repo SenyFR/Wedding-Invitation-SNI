@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Rochester&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Rochester', cursive;
+}
+
+.second-text{
+    font-family: 'Redressed', cursive;
+    line-height: 170%;
+    /* or 41px */
+
+    letter-spacing: 0.1em;
+
+    color: #F5C2A7;
+}
+
+.text-judul{
+    letter-spacing: 0.5em;
+
+    color: #F5C2A7;
+}
+
+.height-screen-minimum{
+    max-height: 650px;
+}
